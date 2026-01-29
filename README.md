@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tomdimino-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/tomdimino/)
 [![GitHub User's stars](https://img.shields.io/github/stars/tdimino)](https://github.com/tdimino)
 
-AI/ML engineer building cognitive AI systems. Currently at **Aldea AI** architecting production soul engines with fine-tuned 70B models. Previously shipped AI tools at **JP Morgan Chase** serving 5,000+ wealth advisors.
+AI/ML engineer building cognitive AI systems. Currently at **Aldea AI** architecting production soul engines with fine-tuned 70B models and post-Transformer LLMs. Previously shipped AI tools at **JP Morgan Chase** serving 5,000+ wealth advisors.
 
 ## Projects
 
