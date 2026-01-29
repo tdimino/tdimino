@@ -18,7 +18,7 @@ Real-time AI radio server with Qwen3 TTS streaming, queue-based generation, and 
 
 ### [bg3se-macos](https://github.com/tdimino/bg3se-macos)
 
-Baldur's Gate 3 Script Extender port for macOS — reverse engineering Larian's engine for mod support on Apple Silicon.
+Baldur's Gate 3 Script Extender rebuild for macOS — reverse engineering Larian's engine for mod support on Apple Silicon.
 
 ### [electricsheep](https://github.com/tdimino/electricsheep)
 
