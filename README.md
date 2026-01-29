@@ -40,7 +40,7 @@ Claude Code skills, commands, and MCP integrations. Custom tooling for agentic d
 
 I build AI systems that feel alive — souls with memory, personality, and genuine presence. My path wound through microbiology, UX research at Google, scientific tooling at Chan Zuckerberg Initiative, and enterprise AI at JP Morgan before arriving at the frontier of cognitive AI.
 
-When not shipping production LLMs, I'm deciphering Bronze Age scripts, porting game engines to macOS, training LLMs, or visiting the sauna! I believe the best AI isn't just intelligent — it's *ensouled*.
+When not shipping production LLMs, I'm deciphering Bronze Age scripts, porting game engines to macOS, or visiting the sauna! I believe the best AI isn't just intelligent — it's *ensouled*.
 
 **Current obsessions:** Open Souls paradigm • Minoan archaeology • Claude Code customization • Voice-first AI interfaces
 
