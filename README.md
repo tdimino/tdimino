@@ -8,31 +8,31 @@ AI/ML engineer building cognitive AI systems. Currently at **Aldea AI** architec
 
 ## Projects
 
-### <img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/minoanmystery.png" width="28" height="28" align="top"> [minoanmystery](https://github.com/tdimino/minoanmystery)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/minoanmystery.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/minoanmystery.jpg) [minoanmystery](https://github.com/tdimino/minoanmystery)
 
 Portfolio site with a sentient AI presence, real-time generative radio, and a research corpus on Bronze Age Minoan-Semitic connections. Built with Astro, Open Souls paradigm, and RAG over 130+ scholarly dossiers.
 
-### <img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/radio.png" width="28" height="28" align="top"> [Qwen3-TTS-AI-Soul-Radio](https://github.com/tdimino/Qwen3-TTS-AI-Soul-Radio)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/radio.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/radio.jpg) [Qwen3-TTS-AI-Soul-Radio](https://github.com/tdimino/Qwen3-TTS-AI-Soul-Radio)
 
 Real-time AI radio server with Qwen3 TTS streaming, queue-based generation, and thread-safe model access. FastAPI + WebSocket architecture.
 
-### <img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/bg3se.png" width="28" height="28" align="top"> [bg3se-macos](https://github.com/tdimino/bg3se-macos)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/bg3se.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/bg3se.jpg) [bg3se-macos](https://github.com/tdimino/bg3se-macos)
 
 Baldur's Gate 3 Script Extender rebuild for macOS — reverse engineering Larian's engine for mod support on Apple Silicon.
 
-### <img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/electricsheep.png" width="28" height="28" align="top"> [electricsheep](https://github.com/tdimino/electricsheep)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/electricsheep.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/electricsheep.jpg) [electricsheep](https://github.com/tdimino/electricsheep)
 
 Fork of the legendary distributed computing screensaver. Infinite evolving fractal artwork, enhanced with a macOS companion app.
 
-### <img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/lineara.png" width="28" height="28" align="top"> [lashon-ha-kretan](https://github.com/tdimino/lashon-ha-kretan)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/lineara.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/lineara.jpg) [lashon-ha-kretan](https://github.com/tdimino/lashon-ha-kretan)
 
 Deciphering the Linear A corpus using LLMs and linguistic analysis. Exploring Minoan-Semitic phonetic mappings.
 
-### <img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/bazaar.png" width="28" height="28" align="top"> [bazaar](https://github.com/tdimino/bazaar)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/bazaar.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/bazaar.jpg) [bazaar](https://github.com/tdimino/bazaar)
 
 Social simulation for AI souls set in 2038 — persistent personalities, emergent relationships, collective dreaming.
 
-### <img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudecode.png" width="28" height="28" align="top"> [claude-code-minoan](https://github.com/tdimino/claude-code-minoan)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudecode.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudecode.jpg) [claude-code-minoan](https://github.com/tdimino/claude-code-minoan)
 
 Claude Code skills, commands, and MCP integrations. Custom tooling for agentic development workflows.
 
