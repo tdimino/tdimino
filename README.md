@@ -28,9 +28,9 @@ Fork of the legendary distributed computing screensaver. Infinite evolving fract
 
 Deciphering the Linear A corpus using LLMs and linguistic analysis. Exploring Minoan-Semitic phonetic mappings.
 
-### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/bazaar.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/bazaar.png) [bazaar](https://github.com/tdimino/bazaar)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/mdpreview.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/mdpreview.png) [md-preview-and-annotate](https://github.com/tdimino/md-preview-and-annotate)
 
-Social simulation for AI souls set in 2038 — persistent personalities, emergent relationships, collective dreaming.
+Markdown previewer with inline annotations, commenting, and persistent bookmarks. Built for Claude Code workflows.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudecode.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudecode.png) [claude-code-minoan](https://github.com/tdimino/claude-code-minoan)
 
