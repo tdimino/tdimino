@@ -12,6 +12,10 @@ AI/ML engineer building cognitive AI systems. Currently at **Aldea AI** architec
 
 Portfolio site with a sentient AI presence, real-time generative radio, and a research corpus on Bronze Age Minoan-Semitic connections. Built with Astro, Open Souls paradigm, and RAG over 130+ scholarly dossiers.
 
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudius.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudius.png) [claudius](https://github.com/tdimino/claudius)
+
+Open-source soul agent framework for Claude Code. Persistent personality via `soul.md`, three-tier memory (working/user/global with SQLite), cognitive pipeline, and channel adapters for Slack, SMS, and terminal.
+
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/radio.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/radio.png) [Qwen3-TTS-AI-Soul-Radio](https://github.com/tdimino/Qwen3-TTS-AI-Soul-Radio)
 
 Real-time AI radio server with Qwen3 TTS streaming, queue-based generation, and thread-safe model access. FastAPI + WebSocket architecture.
