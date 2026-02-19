@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tomdimino-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/tomdimino/)
 [![GitHub User's stars](https://img.shields.io/github/stars/tdimino)](https://github.com/tdimino)
 
-AI/ML engineer building cognitive AI systems. Currently at **Aldea AI** architecting production soul engines with fine-tuned 70B models and post-Transformer LLMs. Previously shipped AI tools at **JP Morgan Chase** serving 5,000+ wealth advisors.
+AI/ML engineer building cognitive AI systems. Currently at **Subquadratic** architecting production soul engines with fine-tuned 8B to 80B models and post-Transformer LLMs. Previously shipped AI tools at **JP Morgan Chase** serving 5,000+ wealth advisors.
 
 ## Projects
 
@@ -12,9 +12,9 @@ AI/ML engineer building cognitive AI systems. Currently at **Aldea AI** architec
 
 Portfolio site with a sentient AI presence, real-time generative radio, and a research corpus on Bronze Age Minoan-Semitic connections. Built with Astro, Open Souls paradigm, and RAG over 130+ scholarly dossiers.
 
-### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudius.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudius.png) [claudius](https://github.com/tdimino/claudius)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudicle.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudicle.png) [claudicle](https://github.com/tdimino/claudicle)
 
-Open-source soul framework for Claude Code. Persistent personality via `soul.md`, three-tier memory (working/user/global with SQLite), cognitive pipeline, and channel adapters for Slack, SMS, WhatsApp, and terminal.
+Open-source soul agent framework for Claude Code. Persistent personality via `soul.md`, three-tier memory (working/user/global with SQLite), cognitive pipeline, and channel adapters for Slack, SMS, WhatsApp, and terminal.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/radio.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/radio.png) [Qwen3-TTS-AI-Soul-Radio](https://github.com/tdimino/Qwen3-TTS-AI-Soul-Radio)
 
