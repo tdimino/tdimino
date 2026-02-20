@@ -30,7 +30,7 @@ Fork of the legendary distributed computing screensaver. Infinite evolving fract
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/lineara.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/lineara.png) [lashon-ha-kretan](https://github.com/tdimino/lashon-ha-kretan)
 
-Deciphering the Linear A corpus using LLMs and linguistic analysis. Exploring Minoan-Semitic phonetic mappings.
+Deciphering the Linear A corpus using LLMs and linguistic analysis. Exploring Minoan phonetic mappings via Cyrus H. Gordon's lexicon.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/mdpreview.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/mdpreview.png) [dabarat](https://github.com/tdimino/dabarat)
 
