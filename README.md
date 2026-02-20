@@ -38,7 +38,7 @@ AI-native markdown previewer with annotations, bookmarks, and live reload. Zero 
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudecode.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudecode.png) [claude-code-minoan](https://github.com/tdimino/claude-code-minoan)
 
-Claude Code skills, commands, and MCP integrations. Custom tooling for agentic development workflows.
+Claude Code skills, commands, hooks, and CLI tools for agentic development workflows. Includes terminal styling and customization.
 
 ## About Me
 
