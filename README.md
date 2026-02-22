@@ -18,7 +18,7 @@ Open-source framework for imbuing Claude Code with soul. Persistent yet evolving
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/radio.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/radio.png) [Qwen3-TTS-AI-Soul-Radio](https://github.com/tdimino/Qwen3-TTS-AI-Soul-Radio)
 
-Real-time AI radio server with Qwen3 TTS streaming, queue-based generation, and thread-safe model access. FastAPI + WebSocket architecture.
+Real-time AI radio server with local Qwen3 TTS streaming, queue-based generation, and thread-safe model access. FastAPI + WebSocket architecture.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/bg3se.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/bg3se.png) [bg3se-macos](https://github.com/tdimino/bg3se-macos)
 
