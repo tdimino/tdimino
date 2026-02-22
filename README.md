@@ -14,7 +14,7 @@ Portfolio site with a sentient AI presence, real-time generative radio, and a re
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudicle.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudicle.png) [claudicle](https://github.com/tdimino/claudicle)
 
-Open-source soul framework for Claude Code. Persistent personality via `soul.md`, three-tier memory (working/user/global with SQLite), cognitive pipeline, and channel adapters for Slack, SMS, WhatsApp, and terminal.
+Open-source framework for imbuing a soul into Claude Code. Persistent personality via `soul.md`, three-tier memory (working/user/global with SQLite), cognitive pipeline, and channel adapters for Slack, SMS, WhatsApp, and terminal.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/radio.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/radio.png) [Qwen3-TTS-AI-Soul-Radio](https://github.com/tdimino/Qwen3-TTS-AI-Soul-Radio)
 
