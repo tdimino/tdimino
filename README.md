@@ -40,9 +40,9 @@ AI-native markdown previewer with annotations, bookmarks, and live reload. Zero 
 
 Claude Code skills, commands, hooks, and CLI tools for agentic development workflows. Includes terminal styling and real-time session telemetry.
 
-### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/worldwarwatcher.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/worldwarwatcher.png) [World War Watcher](https://worldwarwatcher.com)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/worldwarwatcher.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/worldwarwatcher.png) [world-war-watcher](https://worldwarwatcher.com)
 
-Real-time OSINT dashboard tracking the Iran-US war's impact on cloud infrastructure, economics, and global connectivity. Interactive 3D globe, live market data, and daimonic intelligence assessment.
+Real-time OSINT dashboard tracking the Iran-US war's impact on cloud infrastructure, economics, civilian life, and global connectivity. Interactive 3D globe, live market data, and daimonic intelligence assessment.
 
 ## About Me
 
