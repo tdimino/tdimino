@@ -52,6 +52,6 @@ I build AI systems that feel alive—souls with memory, personality, and genuine
 
 When not shipping production LLMs, I'm translating 3500 year old inscriptions, porting game engines to macOS, or hiking, praying, and visiting the sauna!
 
-**Current obsessions:** Open Souls paradigm • Minoan archaeology • Claude Code customization • Voice-first AI interfaces
+**Current obsessions:** Open Souls paradigm • Minoan archaeology/philology • Claude Code customization • Open-source forks of Pi
 
 → [minoanmystery.org](https://www.minoanmystery.org)
