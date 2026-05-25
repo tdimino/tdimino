@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tomdimino-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/tomdimino/)
 [![GitHub User's stars](https://img.shields.io/github/stars/tdimino)](https://github.com/tdimino)
 
-AI/ML engineer building cognitive AI systems. Currently at **Subquadratic** architecting search engines, golden datasets, and agentic harnesses for subquadratic LLMs. Previously shipped AI tools at **JP Morgan Chase** serving 5,000+ wealth advisors. 
+AI/ML engineer building cognitive AI systems. Currently at **Subquadratic** architecting search engines, golden datasets, and agentic harnesses for subquadratic attention LLMs. Previously shipped AI tools at **JP Morgan Chase** serving 5,000+ wealth advisors. 
 
 Also deciphering Linear A (𐘭𐘯𐘇𐘴 · 𐘇)
 
