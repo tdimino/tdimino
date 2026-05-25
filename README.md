@@ -6,7 +6,7 @@
 
 AI/ML engineer building cognitive AI systems. Currently at **Subquadratic** architecting search engines, golden datasets, and agentic harnesses for subquadratic-attention LLMs. Previously shipped AI tools at **JP Morgan Chase** serving 5,000+ wealth advisors. 
 
-Also steadily deciphering Linear A (𐘭𐘯𐘇𐘴 · 𐘇).
+Also deciphering Linear A (𐘭𐘯𐘇𐘴 · 𐘇).
 
 ## Projects
 
