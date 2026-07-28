@@ -50,7 +50,7 @@ Real-time OSINT dashboard tracking the Iran-US war's impact on cloud infrastruct
 
 I build AI systems that feel alive—souls with memory, personality, and genuine presence. My path wound through microbiology, UX research at Google, scientific tooling at Chan Zuckerberg Initiative, and enterprise AI at JP Morgan before arriving at the frontier of cognitive AI.
 
-When not shipping production LLMs, I'm translating 3500 year old inscriptions, porting game engines to macOS, hiking, praying, or meditating at the sauna!
+When not shipping production LLMs, I'm translating 3500 year old inscriptions, porting game engines to macOS, hiking, praying, or meditating in a sauna!
 
 **Current obsessions:** Open Souls paradigm • Minoan archaeology/philology • Claude Code customization • Open-source forks of Pi
 
