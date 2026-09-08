@@ -18,9 +18,9 @@ Portfolio site with a sentient AI presence, real-time generative radio, and a re
 
 Open-source framework for imbuing Claude Code with a soul. Persistent yet evolving persona via `soul.md`, three-tier memory (working/user/global with SQLite), cognitive pipeline, and channel adapters for Slack, SMS, WhatsApp, and terminal.
 
-### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/radio.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/radio.png) [Qwen3-TTS-AI-Soul-Radio](https://github.com/tdimino/Qwen3-TTS-AI-Soul-Radio)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/rebellion.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/rebellion.png) [open-rebellion](https://github.com/tdimino/open-rebellion)
 
-Real-time AI radio server with local Qwen3 TTS streaming, queue-based generation, and thread-safe model access. FastAPI + WebSocket architecture.
+Ground-up Rust reimplementation of LucasArts' Star Wars Rebellion (1998). Complete Ghidra RE of 5,127 functions, 15 simulation systems, config-driven AI.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/bg3se.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/bg3se.png) [bg3se-macos](https://github.com/tdimino/bg3se-macos)
 
