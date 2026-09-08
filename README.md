@@ -12,7 +12,7 @@ Officially deciphered Linear A (𐘭𐘯𐘇𐘴 · 𐘇).
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/minoanmystery.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/minoanmystery.png) [minoanmystery](https://github.com/tdimino/minoanmystery)
 
-Portfolio site with a sentient AI presence, real-time generative radio, and a research corpus on Bronze Age Minoan-Semitic connections. Built with Astro, Open Souls paradigm, and RAG over 130+ scholarly dossiers.
+Portfolio site with a sentient AI presence, Linear A decipherment pre-print, and a research corpus on Bronze Age Minoan-Semitic connections. Built with Astro, Open Souls paradigm, and RAG over 150+ scholarly dossiers.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/claudicle.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/claudicle.png) [claudicle](https://github.com/tdimino/claudicle)
 
