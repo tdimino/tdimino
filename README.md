@@ -28,7 +28,7 @@ Baldur's Gate 3 Script Extender rebuild for macOS — reverse engineering Larian
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/knossot.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/knossot.png) [knossot](https://knossot.org)
 
-Public-event index for the Hudson Valley, the Delaware River Valley, Philadelphia, and New York City—one TypeScript ingestion core parsing 120+ venue and organization calendars into a single deduplicated feed. Every listing is treated as a claim, with no promoted events, no paid placement, and no cut of anyone's ticket.
+Public-event index for the Hudson Valley, the Delaware River Valley, Philadelphia, and New York City—one TypeScript ingestion core parsing 120+ venue and organization calendars into a single deduplicated feed.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/lineara.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/lineara.png) [lashon-ha-kretan](https://github.com/tdimino/lashon-ha-kretan)
 
