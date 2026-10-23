@@ -30,9 +30,9 @@ Baldur's Gate 3 Script Extender rebuild for macOS — reverse engineering Larian
 
 Public-event index for the Hudson Valley, the Delaware River Valley, Philadelphia, and New York City—one TypeScript ingestion core parsing 120+ venue and organization calendars into a single deduplicated feed.
 
-### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/lineara.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/lineara.png) [lashon-ha-kretan](https://github.com/tdimino/lashon-ha-kretan)
+### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/kaphtor.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/kaphtor.png) [kaphtor](https://github.com/plasma-ai/kaphtor)
 
-Deciphering the Linear A corpus using computational and linguistic analysis. Exploring Minoan phonetic mappings via Cyrus H. Gordon's lexicon.
+An open record of Linear A, released with Plasma AI—1,719 corpus records reconciled across GORILA, SigLA and lineara.xyz, a 503-entry lexicon, 436 translations and a database of 3,811 Semitic roots, with the tools that test every reading against the corpus. Named for Kaphtor, the Hebrew Bible's Crete.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/mdpreview.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/mdpreview.png) [dabarat](https://github.com/tdimino/dabarat)
 
