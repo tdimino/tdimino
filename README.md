@@ -8,6 +8,8 @@ AI/ML engineer building cognitive AI systems. Formerly at **Subquadratic** archi
 
 Officially deciphered Linear A (𐘭𐘯𐘇𐘴 · 𐘇).
 
+https://www.plasma.ai/research/linear-a
+
 ## Projects
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/minoanmystery.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/minoanmystery.png) [minoanmystery](https://github.com/tdimino/minoanmystery)
@@ -52,6 +54,6 @@ I build AI systems that feel alive—souls with memory, personality, and genuine
 
 When not shipping production LLMs, I'm translating 3500 year old inscriptions, porting game engines to macOS, hiking, praying, or meditating in a sauna!
 
-**Current obsessions:** Open Souls paradigm • Minoan archaeology/philology • Claude Code customization • Open-source forks of Pi
+**Current obsessions:** Open Souls paradigm • Minoan archaeology/philology • Claude Code customization • Multi-agent orchestration
 
 → [minoanmystery.org](https://www.minoanmystery.org)
