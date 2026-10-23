@@ -32,7 +32,7 @@ Public-event index for the Hudson Valley, the Delaware River Valley, Philadelphi
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/kaphtor.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/kaphtor.png) [kaphtor](https://github.com/plasma-ai/kaphtor)
 
-An open record of Linear A, released with Plasma AI—1,719 corpus records reconciled across GORILA, SigLA and lineara.xyz, a 503-entry lexicon, 436 translations and a database of 3,811 Semitic roots, with the tools that test every reading against the corpus. Named for Kaphtor, the Hebrew Bible's Crete.
+An open record of Linear A, released with Plasma AI—1,719 corpus records reconciled across GORILA, SigLA and lineara.xyz, a 503-entry lexicon, 436 translations and a database of 3,811 Semitic roots, with tools that test every reading.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/mdpreview.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/mdpreview.png) [dabarat](https://github.com/tdimino/dabarat)
 
