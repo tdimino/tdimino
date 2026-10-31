@@ -34,7 +34,7 @@ Public-event index for the Hudson Valley, the Delaware River Valley, Philadelphi
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/kaphtor.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/kaphtor.png) [kaphtor](https://github.com/plasma-ai/kaphtor)
 
-An open record of Linear A, released with Plasma AI—1,719 corpus records reconciled across GORILA, SigLA and lineara.xyz, a 601-entry lexicon, 448 translations and a database of 4,347 Semitic roots, with tools that test every reading.
+An open record of Linear A, released with Plasma AI—1,719 corpus records reconciled across GORILA, SigLA and lineara.xyz, a 611-entry lexicon, 448 translations and a database of 4,347 Semitic roots, with tools that test every reading.
 
 ### [<img src="https://raw.githubusercontent.com/tdimino/tdimino/main/badges/mdpreview.png" width="28" height="28" align="top">](https://raw.githubusercontent.com/tdimino/tdimino/main/badges/full/mdpreview.png) [dabarat](https://github.com/tdimino/dabarat)
 
