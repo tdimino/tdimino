@@ -1,6 +1,6 @@
 {
-  "kaphtor_commit": "2601888faae1974bfc010c7c61db451992ad57bc",
-  "rendered_sha256": "e1fa3852246368fecb964073904f29d006d7d423722d36785d90ed38dfd4d789",
+  "kaphtor_commit": "8244ceacc19c602b9715e5142a932f2d17db8764",
+  "rendered_sha256": "464dc3a0222399479e0935dfb750765d60aa613c8b5aea814417d364d5c78f5f",
   "stats": {
     "schema_version": 1,
     "corpus": {
@@ -8,12 +8,12 @@
       "documents": 1603
     },
     "lexicon": {
-      "entries": 692,
+      "entries": 693,
       "tiers": {
         "CONFIRMED": 19,
         "PROBABLE": 74,
         "CANDIDATE": 268,
-        "SPECULATIVE": 331
+        "SPECULATIVE": 332
       }
     },
     "translations": {
