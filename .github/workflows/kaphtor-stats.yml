@@ -1,0 +1,161 @@
+# kaphtor-stats-sync v1: keeps the README's kaphtor sentence on the counts of kaphtor's latest gated commit, once a day.
+# .github/kaphtor-stats/readme.mjs says what each run checks. The sentence's wording lives in
+# .github/kaphtor-stats/readme-line.tmpl; a hand edit between the README's kaphtor-stats markers stops the sync. Any
+# value in the repository variable KAPHTOR_STATS_PAUSED holds the daily run; a manual run still goes. From a shell:
+#   gh workflow run kaphtor-stats.yml [-f dry_run=true] [-f allow_drop_sha=SHA] [-f rewrite=true]
+#   gh variable set KAPHTOR_STATS_PAUSED --body 1      (pause)    gh variable delete KAPHTOR_STATS_PAUSED (resume)
+#   gh run list --workflow kaphtor-stats.yml           gh run view RUN_ID --log
+name: kaphtor stats
+
+on:
+  schedule:
+    - cron: '47 13 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Report what would change and write nothing
+        type: boolean
+        default: false
+      allow_drop_sha:
+        description: A kaphtor commit whose fall of more than 5% in a count is accepted
+        type: string
+        default: ''
+      rewrite:
+        description: Render the README sentence from the template over a hand edit, and rewrite the snapshot
+        type: boolean
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: kaphtor-stats
+
+jobs:
+  paused:
+    if: github.event_name == 'schedule' && vars.KAPHTOR_STATS_PAUSED != ''
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report the pause
+        run: echo "::warning::kaphtor stats sync is paused by the repository variable KAPHTOR_STATS_PAUSED; no counts were read"
+
+  # GitHub disables a public repository's schedules after 60 days without activity. Enabling the workflow again
+  # through the API resets that clock, with no commit; it runs even while the sync is paused or failing.
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Keep the daily schedule enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT "repos/$GITHUB_REPOSITORY/actions/workflows/kaphtor-stats.yml/enable"
+
+  # Reads public data only, so it holds no write permission.
+  sync:
+    if: github.ref_type == 'branch' && (github.event_name != 'schedule' || vars.KAPHTOR_STATS_PAUSED == '')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    outputs:
+      changed: ${{ steps.sync.outputs.changed }}
+      message: ${{ steps.sync.outputs.message }}
+      readme: ${{ steps.sync.outputs.readme }}
+      snapshot: ${{ steps.sync.outputs.snapshot }}
+      error: ${{ steps.sync.outputs.error }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+
+      - name: Test the sync
+        run: node --test '.github/kaphtor-stats/*.test.mjs'
+
+      - name: Sync from kaphtor
+        id: sync
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          ALLOW_DROP_SHA: ${{ inputs.allow_drop_sha }}
+          REWRITE: ${{ inputs.rewrite }}
+        run: |
+          args=()
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          if [ -n "$ALLOW_DROP_SHA" ]; then args+=(--allow-drop-sha "$ALLOW_DROP_SHA"); fi
+          if [ "$REWRITE" = "true" ]; then args+=(--rewrite); fi
+          node .github/kaphtor-stats/readme.mjs "${args[@]}"
+
+  # Commits the README and snapshot the sync job wrote, onto the commit that job tested.
+  publish:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Commit and push
+        env:
+          README: ${{ needs.sync.outputs.readme }}
+          SNAPSHOT: ${{ needs.sync.outputs.snapshot }}
+          MESSAGE: ${{ needs.sync.outputs.message }}
+          BRANCH: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          printf '%s' "$README" | base64 --decode > README.md
+          printf '%s' "$SNAPSHOT" | base64 --decode > .github/kaphtor-stats/snapshot.json
+          git add README.md .github/kaphtor-stats/snapshot.json
+          git commit --quiet --message "$MESSAGE"
+          basic=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 --wrap=0)
+          echo "::add-mask::$basic"
+          # A plain push: refused if the branch moved since the sync job checked it out, so nothing untested ships.
+          if ! git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $basic" push --quiet origin "HEAD:refs/heads/$BRANCH"; then
+            echo "::error::the push was refused: $BRANCH moved during the run, or the token cannot write; the next run retries"
+            exit 1
+          fi
+
+  report:
+    needs: [sync, publish]
+    if: >-
+      always() && (needs.sync.result == 'failure' || needs.sync.result == 'cancelled'
+      || needs.publish.result == 'failure' || needs.publish.result == 'cancelled')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open or update the failure issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ERROR: ${{ needs.sync.outputs.error }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          cause=${ERROR:-"see the run log"}
+          title='kaphtor stats sync failed'
+          if ! gh label create kaphtor-stats --repo "$GITHUB_REPOSITORY" --color 5319e7 --force \
+               --description 'The daily kaphtor stats sync'; then
+            echo "::warning::could not create the kaphtor-stats label"
+          fi
+          # Found by its fixed title, so an issue opened without the label is found too.
+          open=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 200 --json number,title \
+                 --jq "[.[] | select(.title == \"$title\")][0].number // empty")
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --repo "$GITHUB_REPOSITORY" --body "Failed again: $cause ($RUN_URL)"
+            exit 0
+          fi
+          body="The daily kaphtor stats sync failed: $cause. Run: $RUN_URL. The README keeps its last counts until a run passes. To pause the daily run, set the repository variable KAPHTOR_STATS_PAUSED to any value; close this issue once a run passes."
+          # Each fallback drops one extra: first the assignee, then the label.
+          gh issue create --repo "$GITHUB_REPOSITORY" --label kaphtor-stats --assignee tdimino --title "$title" --body "$body" \
+            || gh issue create --repo "$GITHUB_REPOSITORY" --label kaphtor-stats --title "$title" --body "$body" \
+            || gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
