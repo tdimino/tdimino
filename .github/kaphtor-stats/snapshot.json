@@ -1,6 +1,6 @@
 {
-  "kaphtor_commit": "2e0026adaa465d246ca546d60c5e1c600ab1a9d6",
-  "rendered_sha256": "fcd4cd5ebfa7da9c0ad9eafca226f35968ab2dcc0312b6e4e01356223ebc8738",
+  "kaphtor_commit": "2edc38094311717291155ed547f73af76bb406c6",
+  "rendered_sha256": "2ba8305ebd6497f2233e2e35cf584906d88897dc0929d1e1dd5415a5b30eee4e",
   "stats": {
     "schema_version": 1,
     "corpus": {
@@ -8,25 +8,25 @@
       "documents": 1603
     },
     "lexicon": {
-      "entries": 694,
+      "entries": 702,
       "tiers": {
         "CONFIRMED": 19,
-        "PROBABLE": 75,
-        "CANDIDATE": 267,
-        "SPECULATIVE": 333
+        "PROBABLE": 77,
+        "CANDIDATE": 269,
+        "SPECULATIVE": 337
       }
     },
     "translations": {
-      "complete": 518,
-      "incomplete": 117
+      "complete": 519,
+      "incomplete": 120
     },
     "sign_values": {
-      "total": 37,
+      "total": 40,
       "resolved": 5,
-      "phonemic": 14,
-      "logographic": 23
+      "phonemic": 16,
+      "logographic": 24
     },
-    "names": 380,
+    "names": 382,
     "semitic_roots": 5189
   }
 }
