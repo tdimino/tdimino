@@ -1,6 +1,6 @@
 {
-  "kaphtor_commit": "4f8b4c64acb9c8b19a0197bbc4d39ff35d653485",
-  "rendered_sha256": "1bc3382d33f0482f406af0c684e26221168238d354696197cce328aab25d9e74",
+  "kaphtor_commit": "a82c2355e093cb3e0a5cd587299da78b3c35f178",
+  "rendered_sha256": "60aebec787ea1ab69429e6a0af8abd2dca46c965e0a7447b8cd666cdb6a25dc1",
   "stats": {
     "schema_version": 1,
     "corpus": {
@@ -8,16 +8,16 @@
       "documents": 1603
     },
     "lexicon": {
-      "entries": 719,
+      "entries": 732,
       "tiers": {
         "CONFIRMED": 19,
         "PROBABLE": 79,
-        "CANDIDATE": 271,
-        "SPECULATIVE": 350
+        "CANDIDATE": 278,
+        "SPECULATIVE": 356
       }
     },
     "translations": {
-      "complete": 527,
+      "complete": 528,
       "incomplete": 120
     },
     "sign_values": {
@@ -26,7 +26,7 @@
       "phonemic": 18,
       "logographic": 24
     },
-    "names": 380,
+    "names": 382,
     "semitic_roots": 5189
   }
 }
